@@ -1,1 +1,1 @@
-worker: python WL.py
+worker: python minecraft.py
