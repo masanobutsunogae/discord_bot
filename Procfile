@@ -1,1 +1,1 @@
-worker: python minecraft.py
+worker: python3 minecraft.py
