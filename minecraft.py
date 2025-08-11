@@ -1,13 +1,12 @@
-import os
 import discord
 from discord.ext import commands
 from mcrcon import MCRcon
 
 # 環境変数から読み込み
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-RCON_HOST = os.getenv("RCON_HOST")  # 例: c0desv2025.f5.si
-RCON_PORT = int(os.getenv("RCON_PORT", 25575))
-RCON_PASSWORD = os.getenv("RCON_PASSWORD")
+DISCORD_TOKEN
+RCON_HOST
+RCON_PORT
+RCON_PASSWORD
 
 intents = discord.Intents.default()
 intents.message_content = True
